@@ -6,7 +6,6 @@ function kirimData() {
     var peminatan = document.querySelector("input[name=peminatan]:checked").value;
     var alamat = document.getElementById("alamat").value;
 
-    // Format tanggal menjadi lebih mudah dibaca
     var formattedDate = new Date(tanggal).toLocaleDateString('id-ID', {
         weekday: 'long',
         year: 'numeric',
